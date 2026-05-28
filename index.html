@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bean & Bloom Cafe</title>
+  <meta name="description" content="Bean & Bloom Cafe menyajikan kopi spesial, camilan hangat, dan atmosfer cozy." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="topbar reveal" id="top">
+    <a class="brand" href="index.html">Bean &amp; Bloom</a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="Index(menu).html">Menu</a>
+      <a href="Index(about).html">Cerita</a>
+      <a href="Index(contact).html">Kontak</a>
+    </nav>
+    <a class="cta-link" href="Index(contact).html">Pesan Tempat</a>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">Coffee • Pastry • Cozy Corner</p>
+        <h1>Rasakan espresso yang dibuat dengan cinta.</h1>
+        <p class="lead">Tempat nongkrong kafe yang tenang, aroma kopi segar, dan camilan hangat untuk setiap momen santai.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="Index(menu).html">Lihat Menu</a>
+          <a class="secondary-btn" href="Index(about).html">Tentang Kami</a>
+        </div>
+        <ul class="hero-stats" aria-label="Statistik kafe">
+          <li><strong>4.9/5</strong><span>ulasan pelanggan</span></li>
+          <li><strong>12+</strong><span>varian kopi</span></li>
+          <li><strong>7am</strong><span>jam buka</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-card" aria-label="Poster kafe" src="Assets/Honey Cinnamon Latte Recipe.jpg">
+        <div class="glass-panel">
+          <p class="card-label">Today’s brew</p>
+          <h2>Honey Latte</h2>
+          <p>Espresso lembut, susu berbusa, dan sentuhan madu lokal.</p>
+          <div class="price-row">
+            <span class="price">Rp 38k</span>
+            <span class="pill">Barista favorit</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">Menu utama</p>
+        <h2>Perpaduan rasa yang memanjakan.</h2>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="menu-icon">☕</div>
+          <h3>Espresso Special</h3>
+          <p>Espresso hitam pekat dengan body halus untuk kickstart harimu.</p>
+          <span class="menu-price">Rp 28k</span>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-icon">🥐</div>
+          <h3>Butter Croissant</h3>
+          <p>Croissant renyah berlapis mentega, cocok untuk teman kopi pagi.</p>
+          <span class="menu-price">Rp 24k</span>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-icon">🍰</div>
+          <h3>Choco Tiramisu</h3>
+          <p>Tiramisu lembut dengan rasa cokelat, latte, dan kopi arabika.</p>
+          <span class="menu-price">Rp 32k</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split reveal" id="story">
+      <article class="story-copy">
+        <p class="eyebrow">Tentang kami</p>
+        <h2>Dari biji kopi hingga momen bersama.</h2>
+        <p>Bean &amp; Bloom dibangun untuk menciptakan ruang kecil yang hangat. Setiap cup diseduh untuk merangkum energi pagi, koneksi, dan waktu untuk bernapas.</p>
+        <p>Temukan aroma roasting lokal, musik perlahan, dan layanan ramah dari barista yang siap menemani jeda singkatmu.</p>
+        <a class="text-link" href="Index(contact).html">Kunjungi kami &rarr;</a>
+      </article>
+
+      <article class="story-panel" aria-label="Highlight cafe">
+        <div class="mini-card">
+          <span class="mini-tag">Open daily</span>
+          <h3>7:00 – 20:00</h3>
+          <p>Ngopi pagi, kerja sore, atau ngobrol malam — kami selalu siap.</p>
+        </div>
+        <div class="mini-card accent">
+          <span class="mini-tag">Signature</span>
+          <h3>Cold Brew Glow</h3>
+          <p>Rasa segar, ringan, dan tetap kaya aromanya.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section reveal" id="visit">
+      <div class="section-heading">
+        <p class="eyebrow">Datang ke sini</p>
+        <h2>Temukan suasana kafe yang menenangkan.</h2>
+      </div>
+
+      <div class="visit-grid">
+        <article class="visit-card">
+          <h3>Lokasi</h3>
+          <p>Jl. Aroma No. 18, Pusat Kota</p>
+          <a href="https://maps.google.com" target="_blank" rel="noopener">Lihat di peta</a>
+        </article>
+
+        <article class="visit-card">
+          <h3>Kontak</h3>
+          <p>hello@beanandbloom.id</p>
+          <p>+62 812-3456-7890</p>
+        </article>
+
+        <article class="visit-card">
+          <h3>Instagram</h3>
+          <p>@beanandbloom.cafe</p>
+          <a href="https://instagram.com" target="_blank" rel="noopener">Ikuti perjalanan kami</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer reveal">
+    <p>© <span id="year"></span> Bean &amp; Bloom Cafe. Crafted for cozy moments.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
